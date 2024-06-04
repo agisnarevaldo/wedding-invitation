@@ -28,6 +28,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
 
+    <!-- animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -73,12 +76,12 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
-            <h2>Acara Pernikahan</h2>
-            <h3>
+            <h2 data-aos="fade-up">Acara Pernikahan</h2>
+            <h3 data-aos="fade-up">
               Diselenggarakan pada 23 Juni 2024 di Tasikmalaya (Kediaman
               mempelai wanita)
             </h3>
-            <p>
+            <p data-aos="fade-bottom">
               Oleh karena itu, d engan segala hormat, kami bermaksud untuk
               mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
               kami.
@@ -89,7 +92,7 @@
         <div class="row couple">
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-8 text-end">
+              <div class="col-8 text-end" data-aos="fade-left">
                 <h3>Firman Hidayat</h3>
                 <p>
                   Putra ke-1 dari Bpk. Slamet <br />
@@ -99,6 +102,7 @@
               </div>
               <div class="col-4">
                 <img
+                  data-aos="fade-right"
                   src="img/gallery/p1.jpeg"
                   alt="Sandhika Galih"
                   class="img-responsive rounded-pill"
@@ -107,18 +111,21 @@
             </div>
           </div>
 
-          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+          <span class="heart"
+            ><i class="bi bi-heart-fill" data-aos="zoom-in"></i
+          ></span>
 
           <div class="col-lg-6">
             <div class="row">
               <div class="col-4">
                 <img
+                  data-aos="fade-left"
                   src="img/gallery/p2.jpeg"
                   alt="Nofariza"
                   class="img-responsive rounded-pill"
                 />
               </div>
-              <div class="col-8">
+              <div class="col-8" data-aos="fade-right">
                 <h3>Euis Melihah</h3>
                 <p>
                   Putra ke-2 dari Bpk. Kion Supya<br />
@@ -136,13 +143,14 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <h2>Informasi Acara</h2>
-            <p class="alamat">
+            <h2 data-aos="fade-up">Informasi Acara</h2>
+            <p data-aos="fade-down" class="alamat">
               Alamat: Saguling Cihonje, RT 03 RW 07 Kel. Sambong Jaya <br />
               Kec. Mangkubumi, Kota Tasikmalaya
             </p>
 
             <iframe
+              data-aos="flip-left"
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3956.8969757052014!2d108.19953607500076!3d-7.365443992643754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjEnNTUuNiJTIDEwOMKwMTInMDcuNiJF!5e0!3m2!1sid!2sid!4v1717273708233!5m2!1sid!2sid"
               width="100%"
               height="250"
@@ -164,12 +172,13 @@
             ></iframe> -->
 
             <a
+            data-aos="fade-up
               href="https://maps.app.goo.gl/tkFLMGJ7m7arrE7m8"
               target="_blank"
               class="btn btn-light btn-sm my-3"
               >Klik untuk membuka peta</a
             >
-            <p class="description">
+            <p class="description" data-aos="fade-down">
               Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
               tujuan namun tidak ada tanda-tanda sedang dilangsungkan
               pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.
@@ -178,7 +187,7 @@
         </div>
 
         <div class="row justify-content-center mt-4">
-          <div class="col-md-5 col-10">
+          <div data-aos="flip-left" class="col-md-5 col-10">
             <div class="card text-center text-bg-light mb-5">
               <div class="card-header">Akad Nikah</div>
               <div class="card-body">
@@ -199,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-10">
+          <div data-aos="flip-right" class="col-md-5 col-10">
             <div class="card text-center text-bg-light">
               <div class="card-header">Resepsi</div>
               <div class="card-body">
@@ -226,7 +235,7 @@
 
     <section id="gallery" class="gallery">
       <div class="container">
-        <div class="row justify-content-center">
+        <div data-aos="fade-up" class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
             <span>Memori Kisah Kami</span>
             <h2>Galeri Foto</h2>
@@ -239,13 +248,14 @@
         >
           <div class="col mt-3">
             <a
-              href="img/gallery/thumbnail/g1.jpeg"
+              href="img/gallery/thumbnail/g7.jpg"
               data-toggle="lightbox"
               data-caption="Sandhika & Nofa 1"
               data-gallery="mygallery"
             >
               <img
-                src="img/gallery/thumbnail/g1.jpeg"
+              data-aos="fade-up"
+                src="img/gallery/thumbnail/g7.jpg"
                 alt="Sandhika & Nofa 1"
                 class="img-fluid w-100 rounded"
               />
@@ -259,6 +269,7 @@
               data-gallery="mygallery"
             >
               <img
+              data-aos="fade-up"
                 src="/img/gallery/thumbnail/g2.jpeg"
                 alt="Sandhika & Nofa 2"
                 class="img-fluid w-100 rounded"
@@ -273,6 +284,7 @@
               data-gallery="mygallery"
             >
               <img
+              data-aos="fade-up"
                 src="/img/gallery/thumbnail/g3.jpeg"
                 alt="Sandhika & Nofa 3"
                 class="img-fluid w-100 rounded"
@@ -287,6 +299,7 @@
               data-gallery="mygallery"
             >
               <img
+              data-aos="fade-up"
                 src="/img/gallery/thumbnail/g4.jpeg"
                 alt="Sandhika & Nofa 4"
                 class="img-fluid w-100 rounded"
@@ -301,6 +314,7 @@
               data-gallery="mygallery"
             >
               <img
+              data-aos="fade-up"
                 src="/img/gallery/thumbnail/g5.jpeg"
                 alt="Sandhika & Nofa 5"
                 class="img-fluid w-100 rounded"
@@ -315,6 +329,7 @@
               data-gallery="mygallery"
             >
               <img
+              data-aos="fade-up"
                 src="/img/gallery/thumbnail/g6.jpeg"
                 alt="Sandhika & Nofa 6"
                 class="img-fluid w-100 rounded"
@@ -329,8 +344,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <h2>Do'a dan Ucapan</h2>
-            <p>Isi form di bawah ini untuk memberikan doa dan ucapan</p>
+            <h2 data-aos="fade-up">Do'a dan Ucapan</h2>
+            <p data-aos="fade-down">Isi form di bawah ini untuk memberikan doa dan ucapan</p>
           </div>
         </div>
 
@@ -401,9 +416,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <span>ungkapan tanda kasih</span>
-            <h2>Kirim Hadiah</h2>
-            <p>
+            <span data-aos="fade-down">ungkapan tanda kasih</span>
+            <h2 data-aos="fade-up">Kirim Hadiah</h2>
+            <p data-aos="fade-down">
               Doa restu anda merupakan karunia yang sangat berarti bagi kami.
               Namun jika memberi adalah ungkapan tanda kasih anda.Anda dapat
               memberi kado secara cashless.
@@ -433,7 +448,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <small class="block"
+            <small class="block"  data-aos="fade-up"
               >&copy; 2024 Anggi AR. All Rights Reserved.</small
             >
             <small class="block"
@@ -601,6 +616,10 @@
       namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
 
       document.querySelector("#nama").value = nama;
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
